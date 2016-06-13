@@ -1,4 +1,4 @@
-if test ! $(which spoof)
+if test ! $(which hicat)
 then
-  sudo npm install spoof -g
+  sudo npm install hicat -g
 fi
