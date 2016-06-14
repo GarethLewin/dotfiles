@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 tap 'neovim/neovim'
 tap 'homebrew/dupes'
 tap 'caskroom/versions'
+tap 'caskroom/fonts'
 
 brew 'ack'
 brew 'bash'
@@ -37,3 +38,5 @@ brew 'packer'
 brew 'terraform'
 
 cask 'sublime-text3'
+cask 'visual-studio-code'
+cask 'font-inconsolata-g-for-powerline'

@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // editor
+    "editor.roundedSelection": false,
+    "editor.renderWhitespace": true,
+    "editor.detectIndentation": true,
+    "editor.fontFamily": "inconsolata-g for Powerline",
+    "editor.fontSize": "16",
+	// Adjust the zoom level of the window. The original size is 0 and each increment above or below represents zooming 20% larger or smaller.
+	"window.zoomLevel": 2,
+    // files
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // go
+    "go.formatTool": "goimports",
+    "go.gopath": "/Users/gareth/go",
+    "go.formatOnSave": true
+}

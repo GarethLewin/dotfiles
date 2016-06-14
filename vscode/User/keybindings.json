@@ -1,0 +1,156 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "cmd+[",
+		"command": "workbench.action.navigateBack",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+]",
+		"command": "workbench.action.navigateForward",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+numpad0",
+		"command": "editor.action.clipboardCutAction"
+	},
+	{
+		"key": "shift+delete",
+		"command": "editor.action.clipboardCutAction"
+	},
+	{
+		"key": "ctrl+home",
+		"command": "cursorTop",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+home",
+		"command": "cursorTopSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+end",
+		"command": "cursorBottom",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+end",
+		"command": "cursorBottomSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+g",
+		"command": "editor.action.goToDeclaration",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+left",
+		"command": "cursorWordEndLeft",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+left",
+		"command": "cursorWordEndLeftSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+right",
+		"command": "cursorWordStartRight",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+right",
+		"command": "cursorWordStartRightSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+down",
+		"command": "scrollLineDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "scrollLineUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+pagedown",
+		"command": "scrollPageDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+pageup",
+		"command": "scrollPageUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+f3",
+		"command": "editor.action.nextSelectionMatchFindAction",
+		"when": "editorFocus"
+	},
+	{
+		"key": "shift+ctrl+f3",
+		"command": "editor.action.previousSelectionMatchFindAction",
+		"when": "editorFocus"
+	},
+	{
+		"key": "cmd+y",
+		"command": "redo",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+f2",
+		"command": "bookmarks.toggle",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+f2",
+		"command": "bookmarks.toggle",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "f2",
+		"command": "bookmarks.jumpToNext",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift-f2",
+		"command": "bookmarks.jumpToPrevious",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+down",
+		"command": "cursorColumnSelectDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+left",
+		"command": "cursorColumnSelectLeft",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+pagedown",
+		"command": "cursorColumnSelectPageDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+pageup",
+		"command": "cursorColumnSelectPageUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+right",
+		"command": "cursorColumnSelectRight",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+up",
+		"command": "cursorColumnSelectUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "workbench.extensions.action.listSuggestedExtensions",
+		"when": "editorTextFocus"
+	}
+]
