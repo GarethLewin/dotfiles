@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ln -s $(pwd -P)/vscode/User ~/Library/Application\ Support/Code/User
+ln -sfh $(pwd -P)/vscode/User/ ~/Library/Application\ Support/Code/User

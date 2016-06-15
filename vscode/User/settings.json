@@ -13,6 +13,6 @@
     "files.trimTrailingWhitespace": true,
     // go
     "go.formatTool": "goimports",
-    "go.gopath": "/Users/gareth/go",
+    //"go.gopath": "/Users/gareth/go",
     "go.formatOnSave": true
 }

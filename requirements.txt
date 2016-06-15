@@ -1,0 +1,12 @@
+arrow
+awscli
+botocore
+colorama
+docutils
+jmespath
+pyasn1
+python-dateutil
+rsa
+s3transfer
+six
+docopt
