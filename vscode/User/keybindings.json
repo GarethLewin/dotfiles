@@ -149,57 +149,149 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "ctrl+p",
-		"command": "workbench.extensions.action.listSuggestedExtensions",
+		"key": "shift+ctrl+1",
+		"command": "numberedBookmarks.toggleBookmark1",
 		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+2",
+		"command": "numberedBookmarks.toggleBookmark2",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+3",
+		"command": "numberedBookmarks.toggleBookmark3",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+4",
+		"command": "numberedBookmarks.toggleBookmark4",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+5",
+		"command": "numberedBookmarks.toggleBookmark5",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+6",
+		"command": "numberedBookmarks.toggleBookmark6",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+7",
+		"command": "numberedBookmarks.toggleBookmark7",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+8",
+		"command": "numberedBookmarks.toggleBookmark8",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+ctrl+9",
+		"command": "numberedBookmarks.toggleBookmark9",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+1",
+		"command": "numberedBookmarks.jumpToBookmark1",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+2",
+		"command": "numberedBookmarks.jumpToBookmark2",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+3",
+		"command": "numberedBookmarks.jumpToBookmark3",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+4",
+		"command": "numberedBookmarks.jumpToBookmark4",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+5",
+		"command": "numberedBookmarks.jumpToBookmark5",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+6",
+		"command": "numberedBookmarks.jumpToBookmark6",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+7",
+		"command": "numberedBookmarks.jumpToBookmark7",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+8",
+		"command": "numberedBookmarks.jumpToBookmark8",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+9",
+		"command": "numberedBookmarks.jumpToBookmark9",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+1",
+		"command": "workbench.action.focusFirstEditorGroup"
+	},
+	{
+		"key": "cmd+2",
+		"command": "workbench.action.focusSecondEditorGroup"
+	},
+	{
+		"key": "cmd+0",
+		"command": "workbench.action.focusSideBar"
+	},
+	{
+		"key": "cmd+3",
+		"command": "workbench.action.focusThirdEditorGroup"
+	},
+	{
+		"key": "shift+cmd+1",
+		"command": "editor.action.replaceOne",
+		"when": "editorFocus && findWidgetVisible"
+	},
+	{
+		"key": "shift+cmd+2",
+		"command": "editor.action.sortLinesAscending",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+cmd+3",
+		"command": "editor.action.sortLinesDescending",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+t",
+		"command": "go.test.cursor"
+	},
+	{
+		"key": "cmd+shift+t",
+		"command": "go.test.file"
+	},
+	{
+		"key": "cmd+alt+t",
+		"command": "go.test.package"
+	},
+	{
+		"key": "ctrl+]",
+		"command": "editor.action.jumpToBracket",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+t",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "alt+shift+o",
+		"command": "workbench.action.quickOpen"
 	}
-
-
-{ "key": "shift+ctrl+1",           "command": "numberedBookmarks.toggleBookmark1",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+2",           "command": "numberedBookmarks.toggleBookmark2",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+3",           "command": "numberedBookmarks.toggleBookmark3",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+4",           "command": "numberedBookmarks.toggleBookmark4",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+5",           "command": "numberedBookmarks.toggleBookmark5",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+6",           "command": "numberedBookmarks.toggleBookmark6",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+7",           "command": "numberedBookmarks.toggleBookmark7",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+8",           "command": "numberedBookmarks.toggleBookmark8",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+ctrl+9",           "command": "numberedBookmarks.toggleBookmark9",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+1",                 "command": "numberedBookmarks.jumpToBookmark1",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+2",                 "command": "numberedBookmarks.jumpToBookmark2",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+3",                 "command": "numberedBookmarks.jumpToBookmark3",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+4",                 "command": "numberedBookmarks.jumpToBookmark4",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+5",                 "command": "numberedBookmarks.jumpToBookmark5",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+6",                 "command": "numberedBookmarks.jumpToBookmark6",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+7",                 "command": "numberedBookmarks.jumpToBookmark7",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+8",                 "command": "numberedBookmarks.jumpToBookmark8",
-                                     "when": "editorTextFocus" },
-{ "key": "ctrl+9",                 "command": "numberedBookmarks.jumpToBookmark9",
-                                     "when": "editorTextFocus" },
-{ "key": "cmd+1",                 "command": "workbench.action.focusFirstEditor" },
-{ "key": "cmd+2",                 "command": "workbench.action.focusSecondEditor" },
-{ "key": "cmd+0",                 "command": "workbench.action.focusSideBar" },
-{ "key": "cmd+3",                 "command": "workbench.action.focusThirdEditor" },
-{ "key": "shift+cmd+1",           "command": "editor.action.replaceOne",
-                                     "when": "editorFocus && findWidgetVisible" },
-{ "key": "shift+cmd+2",           "command": "editor.action.sortLinesAscending",
-                                     "when": "editorTextFocus" },
-{ "key": "shift+cmd+3",           "command": "editor.action.sortLinesDescending",
-                                     "when": "editorTextFocus" }
-]
 ]

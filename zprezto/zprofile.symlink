@@ -43,8 +43,10 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
+  ZPROFILE_START
   /usr/local/{bin,sbin}
   $path
+  ZPROFILE_END
 )
 
 #

@@ -1,18 +1,44 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "workbench.editor.showTabs": true,
     // editor
     "editor.roundedSelection": false,
-    "editor.renderWhitespace": true,
+    "editor.renderWhitespace": "boundary",
     "editor.detectIndentation": true,
-    "editor.fontFamily": "inconsolata-g for Powerline",
-    "editor.fontSize": "16",
-	// Adjust the zoom level of the window. The original size is 0 and each increment above or below represents zooming 20% larger or smaller.
-	"window.zoomLevel": 2,
-    // files
+    "editor.renderIndentGuides": true,
+    "editor.folding": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.formatOnType": true,
+    "editor.wrappingColumn": -1,
+    "editor.mouseWheelZoom": false,
+    "window.openFilesInNewWindow": false,
+    "window.restoreFullscreen": true,
+    "window.zoomLevel": 1,
+    "editor.selectionHighlight": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.openEditors.visible": 99,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    // go
     "go.formatTool": "goimports",
-    //"go.gopath": "/Users/gareth/go",
-    "go.formatOnSave": true
+    "go.formatOnSave": true,
+    "go.vetOnSave": false,
+    "go.docsTool": "gogetdoc",
+    "window.titleBarStyle": "native",
+    // "go.lintTool": "gometalinter",
+    // "go.lintFlags": [
+    //     "--disable=gas",
+    //     "--disable=dupl",
+    //     "--disable=gocyclo",
+    //     "--enable=unused",
+    //     "--enable=misspell"],
+    "numberedBookmarks.saveBookmarksBetweenSessions": true,
+    "numberedBookmarks.useStickyBookmarks": true,
+    "bookmarks.saveBookmarksBetweenSessions": true,
+    "bookmarks.useStickyBookmarks": true,
+    "window.fullScreenZenMode": false
 }
