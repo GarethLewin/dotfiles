@@ -27,3 +27,10 @@
         default = simple
 [commit]
 	verbose = true
+	gpgsign = true
+[credential]
+	helper = osxkeychain
+[user]
+	signingkey = 7914A4CA
+	email = gareth@garethlewin.com
+[gpg]

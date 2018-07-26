@@ -12,7 +12,7 @@
 	},
 	{
 		"key": "shift+numpad0",
-		"command": "editor.action.clipboardCutAction"
+		"command": "editor.action.clipboardPasteAction"
 	},
 	{
 		"key": "shift+delete",
@@ -270,15 +270,15 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "cmd+t",
+		"key": "cmd+g c",
 		"command": "go.test.cursor"
 	},
 	{
-		"key": "cmd+shift+t",
+		"key": "cmd+g f",
 		"command": "go.test.file"
 	},
 	{
-		"key": "cmd+alt+t",
+		"key": "cmd+g p",
 		"command": "go.test.package"
 	},
 	{
@@ -293,5 +293,13 @@
 	{
 		"key": "alt+shift+o",
 		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "editor.action.transformToLowercase"
+	},
+	{
+		"key": "ctrl+shift+u",
+		"command": "editor.action.transformToUppercase"
 	}
 ]
