@@ -10,7 +10,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-	editor = nvim
+	editor=nvim
 [apply]
         whitespace = nowarn
 [merge]
@@ -33,4 +33,6 @@
 [user]
 	signingkey = 7914A4CA
 	email = gareth@garethlewin.com
-[gpg]
+	name = gareth
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
