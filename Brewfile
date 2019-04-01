@@ -1,42 +1,129 @@
-cask_args appdir: '/Applications'
-
-tap 'homebrew/bundle'
-tap 'neovim/neovim'
-tap 'homebrew/dupes'
-tap 'caskroom/versions'
-tap 'caskroom/fonts'
-
-brew 'ack'
-brew 'bash'
-brew 'bash-completion'
-brew 'coreutils'
-brew 'fasd'
-brew 'geoip'
-brew 'git'
-brew 'git-extras'
-brew 'gnupg'
-brew 'hub'
-brew 'openssh'
-brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libgit2'
-brew 'openssl'
-brew 'neovim'
-brew 'node'
-brew 'readline'
-brew 'postgresql'
-brew 'python3'
-brew 'the_silver_searcher'
-brew 'tmux'
-brew 'unrar'
-brew 'wget'
-brew 'youtube-dl'
-brew 'zsh'
-
-brew 'packer'
-brew 'terraform'
-
-cask 'sublime-text3'
-cask 'visual-studio-code'
-cask 'font-inconsolata-g-for-powerline'
+tap "azure/draft"
+tap "c-bata/kube-prompt"
+tap "d12frosted/emacs-plus"
+tap "dta/devtools", "git@git-aws.internal.justin.tv:dta/homebrew-devtools.git"
+tap "go-delve/delve"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/services"
+tap "homebrew/versions"
+tap "jenkins-x/jx"
+tap "ksonnet/tap"
+tap "neovim/neovim"
+tap "osx-cross/avr"
+tap "px4/px4"
+tap "railwaycat/emacsmacport"
+tap "twitch/internal", "git@git-aws.internal.justin.tv:common/homebrew-custom.git"
+tap "twitch/security", "https://twitch-security-packages.s3.amazonaws.com/homebrew.git"
+tap "weaveworks/tap"
+cask "java"
+cask "osxfuse"
+brew "ack"
+brew "autoconf"
+brew "automake"
+brew "avrdude"
+brew "bash"
+brew "bash-completion"
+brew "bazaar"
+brew "bindfs"
+brew "gettext", link: true
+brew "libffi"
+brew "python"
+brew "coreutils"
+brew "csshx"
+brew "curl"
+brew "delve"
+brew "go"
+brew "dep"
+brew "dfu-programmer"
+brew "dfu-util"
+brew "fasd"
+brew "gmp"
+brew "libevent"
+brew "ffmpeg"
+brew "fish"
+brew "geoip"
+brew "getmail"
+brew "git"
+brew "git-extras"
+brew "gnupg", link: false
+brew "pkg-config"
+brew "godep"
+brew "libtool"
+brew "graphviz"
+brew "grc"
+brew "groovy"
+brew "htop"
+brew "httpie"
+brew "hub"
+brew "hugo"
+brew "iftop"
+brew "imagemagick", link: false
+brew "imagemagick@6", link: true
+brew "jp2a"
+brew "jq"
+brew "jsonnet"
+brew "kubernetes-cli"
+brew "kops"
+brew "kube-ps1"
+brew "kubectx"
+brew "kubernetes-helm"
+brew "kustomize"
+brew "libgit2"
+brew "memcached", restart_service: true
+brew "mysql", restart_service: true
+brew "neovim"
+brew "node", link: false
+brew "node@8", link: true
+brew "packer"
+brew "pinentry-mac"
+brew "postgresql"
+brew "protobuf"
+brew "pssh"
+brew "rbenv"
+brew "redis", restart_service: true
+brew "ripgrep"
+brew "skaffold"
+brew "terraform_landscape"
+brew "tfenv"
+brew "the_silver_searcher"
+brew "tmux"
+brew "unrar"
+brew "watch"
+brew "watchman"
+brew "wget"
+brew "yarn"
+brew "youtube-dl"
+brew "zsh"
+brew "dta/devtools/tcs"
+brew "jenkins-x/jx/jx"
+brew "ksonnet/tap/ks"
+brew "osx-cross/avr/avr-gcc@7", link: true
+brew "px4/px4/gcc-arm-none-eabi"
+brew "twitch/internal/manta"
+brew "twitch/internal/sandstorm"
+brew "twitch/internal/sandstorm-agent"
+brew "twitch/internal/wtf"
+brew "twitch/security/twitch-bastion-util"
+brew "weaveworks/tap/eksctl"
+cask "atom"
+cask "beyond-compare"
+cask "docker"
+cask "font-fira-code"
+cask "font-inconsolata-g-for-powerline"
+cask "minikube"
+cask "postman"
+cask "skitch"
+cask "spotify"
+cask "sqlworkbenchj"
+cask "steermouse"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "yubiswitch"
