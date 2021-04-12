@@ -1,8 +1,7 @@
 # Local/private config goes in the include
-[include]
-        path = ~/.gitconfig.local
 [hub]
-        protocol = https
+	protocol = https
+	host = git.xarth.tv
 [color]
         diff = auto
         status = auto
@@ -11,8 +10,6 @@
 [core]
         excludesfile = ~/.gitignore
 	editor=nvim
-[apply]
-        whitespace = nowarn
 [merge]
 	tool = bc3
 [mergetool]
@@ -27,7 +24,7 @@
         default = simple
 [commit]
 	verbose = true
-	gpgsign = true
+	gpgsign = false
 [credential]
 	helper = osxkeychain
 [user]
@@ -36,3 +33,13 @@
 	name = gareth
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
+[include]
+	path = ~/.gitconfig.local
+[includeIf "gitdir:~/workspaces/"]
+	path = ~/.gitconfig.amazon
+[includeIf "gitdir:~/go/src/code.justin.tv/"]
+	path = ~/.gitconfig.twitch
+[pull]
+	ff = only
+[init]
+	defaultBranch = mainline

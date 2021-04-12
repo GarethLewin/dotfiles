@@ -26,6 +26,21 @@
     "enabled": true,
     "delay": 500
   },
+  "[go]": {
+      "editor.snippetSuggestions": "none",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      }
+  },
+  "gopls": {
+      "usePlaceholders": true, // add parameter placeholders when completing a function
+
+      // Experimental settings
+      "completeUnimported": true, // autocomplete unimported packages
+      "deepCompletion": true,     // enable deep completion
+  },
+  "files.eol": "\n", // formatting only supports LF line endings
   "html.format.enable": false,
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
@@ -58,5 +73,13 @@
   "go.gopath": "/Users/glewin/go",
   "bracketPairColorizer.showHorizontalScopeLine": false,
   "editor.formatOnSaveTimeout": 2000,
-  "prettier.disableLanguages": ["vue", "yaml"]
+  "prettier.disableLanguages": [
+    "vue",
+    "yaml"
+  ],
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "go.useLanguageServer": true
 }
